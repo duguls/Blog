@@ -1,0 +1,445 @@
+/* fuentes personalizadas*/
+@font-face{
+font-family :governor;
+src :url(fuentes/governor.ttf) format('truetype');
+
+}
+@font-face{
+font-family :Damion-Regular;
+src :url(fuentes/Damion-Regular.ttf) format('truetype');
+}
+h1,h2,h3,h4,h5,h6{
+font-family :governor;
+}
+h1{
+transform:translate:(150px,0px);
+-moz-transform:translate:(150px,0px);
+-webkit-transform:translate:(150px,0px);
+-o-transform:translate:(150px,0px);
+position:relative;
+color:white;
+font-size:15px;
+top:-20%;
+margin-top:10px;
+letter-spacing:0px;
+display:inline;
+text-shadow:2px 2px 5px rgba(0,0,0,0.5);
+-moz-text-shadow:2px 2px 5px rgba(0,0,0,0.5);
+}
+h2{
+transform:translate:(150px,0px);
+-moz-transform:translate:(150px,0px);
+-webkit-transform:translate:(150px,0px);
+-o-transform:translate:(150px,0px);
+position:relative;
+color:white;
+font-size:15px;
+top:-20%;
+margin-top:10px;
+letter-spacing:0px;
+display:inline;
+text-shadow:2px 2px 5px rgba(0,0,0,0.6);
+-moz-text-shadow:2px 2px 5px rgba(0,0,0,0.6);
+}
+
+p{
+font-family:Damion-Regular;
+font-size:20px;
+}
+/*menu d enavegaciòn*/
+
+nav{
+display:inline;
+float:right;
+margin:20px;
+
+
+}
+
+nav ul{
+font-size:20px;
+padding-left:0px;
+margin-left:0px;
+background-color:grey;
+color:white;
+width:50%;
+font-family:Damion-Regular;
+position:relative;
+display:inline;
+}
+
+nav ul li{
+display:inline;/*hace que se pongan uno detras de otro*/
+text-align:center;
+font-size:15px;
+}
+
+nav ul li a{
+padding:0px 5px 5px 5px;
+background:grey;
+color:white;
+text-decoration:none;
+float:right;
+border:1px solid white;
+
+border-radius:0px 10px 0px 10px;
+-moz-border-radius:0px 10px 0px 10px;
+-webkit-border-radius:0px 10px 0px 10px;
+-o-border-radius:0px 10px 0px 10px;
+
+box-shadow:0px 0px 5px white;
+-moz-box-shadow:0px 0px 5px white;
+-webkit-box-shadow:0px 0px 5px white;
+-o-box-shadow:0px 0px 5spx white;
+width:80px:
+}
+
+nav ul li a:hover{
+background :white;
+color:black;
+box-shadow:0px 0px 25px white;
+-moz-box-shadow:0px 0px 25px white;
+-webkit-box-shadow:0px 0px 25px white;
+-o-box-shadow:0px 0px 25spx white;
+}
+
+canvas{
+border :0px solid:white;
+}
+
+/* principal */
+body{
+margin :0px;
+text-align :center;
+background :gray;
+background:url('../images/negro.jpg'), url('../images/verde.jpg'),url('../images/victorian.jpg');
+
+}
+#principal{
+text-align:left;
+position:relative;
+width:80%;
+height:100%;
+margin:auto;
+
+
+}
+#cajaheader{
+width:100%;
+height:160px;
+position:absolute;
+background:rgba(255,255,255,0.5);
+
+}
+header{
+margin:auto;
+text-align:left;
+display:table;/*es para mozilla y opera para que se muestre comos is fuera parte de una tabla*/
+/*background:darkgrey;*/
+width:100%;
+height:100px;
+/*overflow:hidden;si se monta el menu lo oculto por un momento*/
+
+border:2px solid white;
+
+border-radius:5px 35px 0px 0px;
+-moz-border-radius:5px 35px 0px 0px;
+-webkit-border-radius:5px 35px 0px 0px;
+-o-border-radius:5px 35px 0px 0px;
+
+box-shadow:0px 0px 10px white;
+-moz-box-shadow:0px 0px 10px white;
+-webkit-box-shadow:0px 0px 10px white;
+-o-box-shadow:0px 0px 10px white;
+}
+
+#logo{
+width:120px;
+height:150px;
+display:inline;
+position:relative;
+}
+
+footer{
+display:table;
+margin:0px;
+text-align:center;
+width:100%;
+background:darkgray;
+border :2px solid white;
+border-radius:0px 0px 5px 35px;
+-moz-border-radius:0px 0px 5px 35px;
+-o-border-radius:0px 0px 5px 35px;
+-webkit-border-radius:0px 0px 5px 35px;
+
+box-shadow:0px 0px 10px white;
+-webkit-box-shadow:0px 0px 10px white;
+-moz-box-shadow:0px 0px 10px white;
+-o-box-shadow:0px 0px 10px white;
+
+}
+/*contenido*/
+#contenido{
+width:100%;
+border :2px solid white;
+box-shadow:0px 0px 10px white;
+-webkit-box-shadow:0px 0px 10px white;
+-moz-box-shadow:0px 0px 10px white;
+-o-box-shadow:0px 0px 10px white;
+background:rgba(255,255,255,0.0);
+}
+
+article{
+width:50%;
+/*background:white;*/
+background:rgba(255,255,255,0.8);/*rgba(rojo,verde,azul,transparencia) = color Blanco*/
+display:table;
+float:left;
+margin:10px;
+height:100%;
+border-radius : 0px 25px 0px 25px;
+-moz-border-radius : 0px 25px 0px 25px;
+-o-border-radius : 0px 25px 0px 25px; 
+-webkit-border-radius : 0px 25px 0px 25px;
+box-shadow:3px 3px 10px black;
+-webkit-box-shadow:0px 0px 10px black;
+-moz-box-shadow:0px 0px 10px black;
+-o-box-shadow:0px 0px 10px black;
+padding:10px 10px 10px 150px;
+
+opacity:0.5; /*esta semitransparente*/
+transition:opacity 1s,box-shadow 1s,transform 1s,background 1s;/*1segundo demora la transición */ 
+-moz-transition:opacity 1s,-moz-box-shadow 1s,-moz-transform 1s,-moz-background 1s;
+-o-transition:opacity 1s,-o-box-shadow 1s,-o-transform 1s,-o-background 1s;
+-webkit-transition:opacity 1s,-webkit-box-shadow 1s,-webkit-transform 1s,-webkit-background 1s;
+transform:scale(1,1);/*mantiene su tamaño*/
+-webkit-transform:scale(1,1);
+-moz-transform:scale(1,1);
+-o-transform:scale(1,1);
+}
+
+article:hover{
+box-shadow:0px 0px 25px white;
+-webkit-box-shadow:0px 0px 25px white;
+-moz-box-shadow:0px 0px 25px white;
+-o-box-shadow:0px 0px 25px white;
+opacity:1;
+transform:scale(1.1,1.1);/*al pasar el mouse crece el contenido dandole un efecto*/
+-webkit-transform:scale(1.1,1.1);
+-moz-transform:scale(1.1,1.1);
+-o-transform:scale(1.1,1.1);
+background:rgba(255,255,255,1);
+}
+time{
+font-family:Damion-Regular;
+font-size:12px;
+}
+aside{
+float:right;
+display:inline-table;
+width:20%;
+
+margin:10px;
+padding:10px;
+border:1px solid white;
+border-radius:0px 25px 0px 25px;
+-moz-border-radius:0px 25px 0px 25px;
+-webkit-border-radius:0px 25px 0px 25px;
+-o-border-radius:0px 25px 0px 25px;
+box-shadow:3px 3px 10px black;
+-webkit-box-shadow:3px 3px 10px black;
+-moz-box-shadow:3px 3px 10px black;
+-o-box-shadow:3px 3px 10px black;
+}
+
+aside ul{
+width:100%;
+height:100%;
+padding-left:0px;
+padding-right:0px;
+color:white,
+float:left;
+font-family:Damion-Regular;
+font-size:18px;
+list-style:none; /*para que desaparesca los puntos de la lista*/
+}
+
+aside ul li{
+width:100%;
+
+border-radius:0px 5px 0px 5px;
+-moz-border-radius:0px 5px 0px 5px;
+-webkit-border-radius:0px 5px 0px 5px;
+-o-border-radius:0px 5px 0px 5px;
+text-decoration:none;
+}
+
+aside ul li a{
+width:100%;
+height:30px;
+overflow:hidden;/*Si algo se sale que lo esconda*/
+text-decoration:none;
+}
+
+#sobremi{
+width:100%;
+height:150px;
+background:black;
+color:white;
+display:table;
+font-size:12px;
+text-decoration:none;
+overflow:hidden;
+text-align:justify;
+}
+
+#sobremi a{
+color:white;
+text-decoration:none;
+}
+#mifoto{
+width:100px;
+height:100px;
+font-family:Damion-Regular;
+font-size:20px;
+color:white;
+text-align:left;
+background:url(../photos/robertramireziquira.jpg);
+background-repeat:no-repeat;
+background-size:100% 100%;
+display:box;
+border:1px solid white;
+border-radius:0px 10px 0px 10px;
+-moz-border-radius:0px 10px 0px 10px;
+-o-border-radius:0px 10px 0px 10px;
+-webkit-border-radius:0px 10px 0px 10px;
+box-shadow:0px 0px 10px white;
+-moz-box-shadow : 0px 0px 10px white;
+-o-box-shadow : 0px 0px 10px white;
+-webkit-box-shadow : 0px 0px 10px white;
+float:left;
+margin:10px;
+
+animation:parpadeo 5s;/*animación de cada 5s parpadea*/
+-moz-animation:parpadeo 5s;
+-o-animation:parpadeo 5s;
+-webkit-animation:parpadeo 5s;
+
+animation-iteration-count:infinite;/*cuanto tiempo para durar en este caso es infinito*/
+-moz-animation-iteration-count:infinite;
+-o-animation-iteration-count:infinite;
+-webkit-animation-iteration-count:infinite;
+
+}
+
+@keyframes parpadeo{ /*el proceso de la animación para que parpadee la foto*/
+0% {box-shadow:0px 0px 10px white;}
+50% {box-shadow:0px 0px 80px white;}
+100% {box-shadow:0px 0px 10px white;}
+}
+
+@-webkit-keyframes parpadeo{
+0% {-webkit-box-shadow:0px 0px 10px white;}
+50% {-webkit-box-shadow:0px 0px 80px white;}
+100% {-webkit-box-shadow:0px 0px 10px white;}
+}
+@-moz-keyframes parpadeo{
+0% {-moz-box-shadow:0px 0px 10px white;}
+50% {-moz-box-shadow:0px 0px 80px white;}
+100% {-moz-box-shadow:0px 0px 10px white;}
+}
+@-o-keyframes parpadeo{
+0% {-o-box-shadow:0px 0px 10px white;}
+50% {-o-box-shadow:0px 0px 80px white;}
+100% {-o-box-shadow:0px 0px 10px white;}
+}
+
+#logo1{
+width:100px;
+height:100px;
+font-family:Damion-Regular;
+font-size:20px;
+color:white;
+text-align:left;
+background:url(../photos/robertramireziquira.jpg);
+background-repeat:no-repeat;
+background-size:100% 100%;
+display:box;
+border:1px solid white;
+border-radius:0px 10px 0px 10px;
+-moz-border-radius:0px 10px 0px 10px;
+-o-border-radius:0px 10px 0px 10px;
+-webkit-border-radius:0px 10px 0px 10px;
+box-shadow:0px 0px 10px white;
+-moz-box-shadow : 0px 0px 10px white;
+-o-box-shadow : 0px 0px 10px white;
+-webkit-box-shadow : 0px 0px 10px white;
+float:left;
+margin:10px;
+position:absolute;
+transform:translate(-140px,0px);
+-moz-transform:translate(-140px,0px);
+-webkit-transform:translate(-140px,0px);
+-o-transform:translate(-140px,0px);
+
+}
+#logo2{
+width:100px;
+height:100px;
+font-family:Damion-Regular;
+font-size:20px;
+color:white;
+text-align:left;
+background:url(../photos/robertramireziquira.jpg);
+background-repeat:no-repeat;
+background-size:100% 100%;
+display:box;
+border:1px solid white;
+border-radius:0px 10px 0px 10px;
+-moz-border-radius:0px 10px 0px 10px;
+-o-border-radius:0px 10px 0px 10px;
+-webkit-border-radius:0px 10px 0px 10px;
+box-shadow:0px 0px 10px white;
+-moz-box-shadow : 0px 0px 10px white;
+-o-box-shadow : 0px 0px 10px white;
+-webkit-box-shadow : 0px 0px 10px white;
+float:left;
+margin:10px;
+position:absolute;
+transform:translate(-140px,0px);
+-moz-transform:translate(-140px,0px);
+-webkit-transform:translate(-140px,0px);
+-o-transform:translate(-140px,0px);
+
+}
+#logo3{
+width:100px;
+height:100px;
+font-family:Damion-Regular;
+font-size:20px;
+color:white;
+text-align:left;
+background:url(../photos/robertramireziquira.jpg);
+background-repeat:no-repeat;
+background-size:100% 100%;
+display:box;
+border:1px solid white;
+border-radius:0px 10px 0px 10px;
+-moz-border-radius:0px 10px 0px 10px;
+-o-border-radius:0px 10px 0px 10px;
+-webkit-border-radius:0px 10px 0px 10px;
+box-shadow:0px 0px 10px white;
+-moz-box-shadow : 0px 0px 10px white;
+-o-box-shadow : 0px 0px 10px white;
+-webkit-box-shadow : 0px 0px 10px white;
+float:left;
+margin:10px;
+position:absolute;
+transform:translate(-140px,0px);
+-moz-transform:translate(-140px,0px);
+-webkit-transform:translate(-140px,0px);
+-o-transform:translate(-140px,0px);
+
+}
+
+
